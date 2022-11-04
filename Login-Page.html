@@ -8,152 +8,166 @@
 
     <style>
         button:hover {
-            background-color: #8ed39c;
+            cursor: pointer;
+            background-color: #7ee787;
+        }
+
+        .create:hover {
+            cursor: pointer;
+            text-decoration: underline;
         }
 
         .links:hover {
+            cursor: pointer;
             text-decoration: underline;
         }
 
-        .foot:hover {
-            text-decoration: underline;
-        }
-
-        .foot2:hover h4{
+        .link2:hover {
+            cursor: pointer;
             text-decoration: underline;
             color: #58a6ff;
         }
 
+        .logo {
+            cursor: pointer;
+        }
+
+        .forgot:hover {
+            cursor: pointer;
+        }
+
     </style>
 </head>
-<body style="background-color: #010409; font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;">
-    <div>
-        <div>
-            <div style="display: flex;
-            flex-direction: row;
-            flex-wrap: nowrap;
-            align-content: center;
-            justify-content: center;
-            align-items: center;
-            margin-top: 32px;">
-                <svg height="48" aria-hidden="true" viewBox="0 0 16 16" version="1.1" width="48" data-view-component="true"
-                    class="octicon octicon-mark-github">
-                    <path 
-                    fill = #c9d1d9
-                    fill-rule="evenodd"
-                        d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27.68 0 1.36.09 2 .27 1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.013 8.013 0 0016 8c0-4.42-3.58-8-8-8z">
-                    </path>
-                </svg>
-            </div>
-            <div style="display: flex; color: #c9d1d9;
-            flex-direction: row;
-            flex-wrap: nowrap;
-            align-content: center;
-            justify-content: center;
-            align-items: center;
-            margin-top: 30px;
-            font-size: 23px;
-            font-weight: 100;
-            letter-spacing: -0.5px;">
-                Sign in to GitHub
-            </div>
-        </div>
-    </div>
+<body style="background-color: #0d1117;
+font-family: -apple-system,BlinkMacSystemFont,Segoe UI,Helvetica,Arial,sans-serif,Apple Color Emoji,Segoe UI Emoji;">
     <div style="display: flex;
-    flex-direction: row;
-    flex-wrap: nowrap;
-    align-content: center;
-    justify-content: center;
-    align-items: center;">
-        <div style="background-color: #161b22; height: 220px; width: 305px; margin-top: 20px; border-radius: 10px; border: 1px solid #30363d ;">
-            <div style="color: #c9d1d9; margin-top: 18px; margin-left: 14px; font-size: 15px;">
-            Username or email address
-            </div>
-            <div class="username"
-            style="margin-top: 10px; margin-left: 15px;
-            border-color: #161b22;">
-                <input type="text" style="width: 265px; background-color: #0d1117; border: 1px solid #30363d ; height: 26px; border-radius: 5px; color: #c9d1d9; font-size: 14px; line-height: 20px;"/>
-            </div>
-            <div style="color: #c9d1d9; margin-top: 18px; margin-left: 14px; font-size: 15px;">
-                Password
-                </div>
-                <div style="display: flex; 
-                    color: #58a6ff; 
-                    font-size: 12.5px;
-                    flex-direction: column;
-                    flex-wrap: nowrap;
-                    align-content: flex-end;
-                    justify-content: center;
-                    align-items: flex-end;
-                    margin-top: -18px;
-                    margin-right: 15px;">
-                    Forgot password?
-                </div>
-                <div class="password"
-                style="margin-top: 10px; margin-left: 15px;
-                border-color: #161b22;">
-                    <input type="password" style="width: 265px; background-color: #0d1117; border: 1px solid #30363d ; height: 26px; border-radius: 5px; color: #c9d1d9; font-size: 14px; line-height: 20px; word-spacing: 50px;"/>
-                </div>
-                <div style="display: flex;
-                flex-direction: row;
-                align-content: center;
-                flex-wrap: nowrap;
-                align-items: center;
-                justify-content: center;
-                margin-top: 16px;">
-                    <button style="width: 265px; align-content: center; background-color: #238636;
-                    font-size: 14px;
-                    font-weight: 500;
-                    line-height: 20px;
-                    height: 32px;
-                    white-space: nowrap;
-                    vertical-align: middle;
-                    cursor: pointer;
-                    -webkit-user-select: none;
-                    user-select: none;
-                    border: 1px solid #238636;
-                    border-radius: 6px;
-                    color: #ffffff;"> Sign In</button>
-                </div>
-        </div>
-    </div>
-    <div style="display: flex;
-    flex-direction: row;
-    flex-wrap: nowrap;
-    align-content: center;
-    justify-content: center;
-    align-items: center;">
-        <div style="height: 55px; width: 305px; margin-top: 15px; border-radius: 10px; border: 1px solid #30363d;">
-            <div style=" display: flex; color: #c9d1d9; margin-top: 18px; margin-left: 5px; font-size: 15px;
-            flex-direction: row;
-            flex-wrap: nowrap;
-            align-content: center;
-            justify-content: center;
-            align-items: center;">
-            New to GitHub?
-            <div style="margin-left: 4px; color: #58a6ff;" class="links">
-                Create an account
-            </div>
-            </div>
-        </div>
-    </div>
-
-    <footer>
-        <div style="display: flex;
-        font-size: 13px;
-        position: relative;
-        flex-direction: row;
+        flex-direction: column;
         flex-wrap: nowrap;
         align-content: center;
         justify-content: center;
-        align-items: center;
-        margin-top: 75px;
-        margin-bottom: 40px;">
-            <div style="color: #58a6ff; margin-right: 15px;" class="foot">Terms </div>
-            <div style="color: #58a6ff; margin-right: 15px;" class="foot">Privacy </div>
-            <div style="color: #58a6ff; margin-right: 15px;" class="foot">Security </div>
-            <div style="color: #8b949e; margin-right: 15px;" class="foot2"> <h4 style="font-weight: 100;">Contact GitHub</h4> </div>
+        align-items: center;">
+        <div class="logo"
+        style="margin-top: 24px;">
+            <svg height="48" aria-hidden="true" viewBox="0 0 16 16" version="1.1" width="48" data-view-component="true"
+                class="octicon octicon-mark-github" style="size: 48px;">
+                <path 
+                fill = #c9d1d9
+                fill-rule="evenodd"
+                    d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27.68 0 1.36.09 2 .27 1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.013 8.013 0 0016 8c0-4.42-3.58-8-8-8z">
+                </path>
+            </svg>
         </div>
-    </footer>
+
+        <div class="header" 
+        style="color: #c9d1d9;
+        font-size: 23px;
+        font-weight: 300;
+        padding-top: 28px;">
+            Sign in to GitHub
+        </div>
+
+        <div class="form"
+        style=" display: flex;
+        flex-direction: column;
+        align-items: center;
+        border: 1px solid #21262d;
+        height: 218px;
+        width: 305px;
+        border-radius: 6px;
+        background-color: #161b22;
+        margin-top: 20px;">
+            <div style="color: #c9d1d9;
+            font-size: 14px;
+            padding-right: 98px;
+            padding-top: 18px;">
+                Username or email address
+            </div>
+
+            <div style="padding-top: 10px;">
+                <input type="text"
+                style="border: 1px solid #30363d;
+                border-radius: 6px;
+                color: #c9d1d9;
+                line-height: 20px;
+                font-size: 14px;
+                background-color: #0d1117;
+                height: 28px;
+                width: 268px;
+                " />
+            </div>
+
+            <div style="display: flex;
+            margin-top: 18px;">
+                <div style="color: #c9d1d9;
+                font-size: 14px;
+                padding-right: 112px;">
+                    Password
+                </div>
+                <div class="forgot"
+                style="color: #58a6ff;
+                font-size: 12px;">
+                    Forgot password?
+                </div>
+            </div>
+
+            <div style="padding-top: 10px;">
+                <input type="password"
+                style="border: 1px solid #30363d;
+                border-radius: 6px;
+                color: #c9d1d9;
+                line-height: 20px;
+                font-size: 14px;
+                background-color: #0d1117;
+                height: 28px;
+                width: 268px;
+                " />
+            </div>
+
+            <div style="margin-top: 16px;">
+                <button style=" color: #ffffff;
+                height: 32px;
+                width: 275px;
+                border: none;
+                border-radius: 6px;
+                background-color: #238636;
+                font-size: 14px;
+                font-weight: 500;">
+                    Sign in
+                </button>
+            </div>
+
+        </div>
+
+        <div class="tab2" 
+        style=" display: flex;
+        justify-content: center;
+        margin-top: 18px;
+        font-size: 14px;
+        color: #c9d1d9;
+        border: 1px solid #30363d;
+        border-radius: 6px;
+        padding: 16px;
+        width: 275px;
+        height: 20px;">
+            <div>
+                New to GitHub?
+            </div>
+            <div class="create"
+            style="color: #58a6ff; padding-left: 4px;">
+                Create an account.
+            </div>
+        </div>
+
+        <nav
+        style="display: flex;
+        font-size: 12px;
+        padding-top: 76px;">
+            <div class="links" style="color: #58a6ff; padding: 5px;">Terms</div>
+            <div class="links" style="color: #58a6ff; padding: 5px; padding-left: 11px;">Privacy</div>
+            <div class="links" style="color: #58a6ff; padding: 5px; padding-left: 11px;">Security</div>
+            <div class="link2" style="color: #8b949e; padding: 5px; padding-left: 11px;">Contact GitHub</div>
+        </nav>
+
+    </div>
 </body>
 </html>
